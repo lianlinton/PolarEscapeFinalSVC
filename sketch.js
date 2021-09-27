@@ -124,7 +124,7 @@ function draw() {
       gameState = "END";  
     }
 
-    if (score > 50){
+    if (score > 500){
       gameState="level2"
     }
   }
@@ -190,7 +190,7 @@ function draw() {
       bear.y = bear.y + 10;
     }
 
-    if(fishCount == 2){
+    if(fishCount == 20){
       endFunc();
       loseSign.visible = false;
       winSign.visible = true; 
